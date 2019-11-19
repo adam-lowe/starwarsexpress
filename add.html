@@ -68,9 +68,9 @@
       event.preventDefault();
       var newCharacter = {
         name: $("#name").val().trim(),
-        role: parseInt($("#role").val().trim()),
+        role: $("#role").val().trim(),
         age: parseInt($("#age").val().trim()),
-        forcePoints: $("#force-points").val().trim()
+        forcePoints: parseInt($("#force-points").val().trim())
       };
 
       // Question: What does this code do??
